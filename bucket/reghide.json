@@ -1,0 +1,8 @@
+{
+    "version": "1.11",
+    "homepage": "https://learn.microsoft.com/sysinternals/downloads/reghide",
+    "license": "",
+    "url": "https://download.sysinternals.com/files/RegHide.zip",
+    "hash": "e5c8c70322295696c3c27a1dd6915e7704aa6d2dbcd2c05d4f5ad77381c73a8b",
+    "bin": "Reghide.exe"
+}
