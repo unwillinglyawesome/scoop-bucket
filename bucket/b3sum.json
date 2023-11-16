@@ -1,0 +1,12 @@
+{
+    "version": "1.5.0",
+    "homepage": "https://github.com/BLAKE3-team/BLAKE3",
+    "license": "",
+    "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/1.5.0/b3sum_windows_x64_bin.exe#/b3sum.exe",
+    "hash": "06fbc9790744cf4d9a2492479544f498ca4bdc9aaab20f36267c6c2b8366a353",
+    "bin": "b3sum.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/$version/b3sum_windows_x64_bin.exe#/b3sum.exe"
+    }
+}
