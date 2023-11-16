@@ -1,0 +1,16 @@
+{
+    "version": "1.4.4",
+    "homepage": "https://rhash.sourceforge.net/",
+    "license": "",
+    "url": "https://downloads.sourceforge.net/project/rhash/rhash/1.4.4/rhash-1.4.4-win64.zip",
+    "hash": "fdc32777862c9c027ff2a7ad30870af306d1c1ad09156b0953ee7a39740e56e4",
+    "extract_dir": "RHash-1.4.4-win64",
+    "bin": "rhash.exe",
+    "checkver": {
+        "sourceforge": "rhash/rhash"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/rhash/rhash/$version/rhash-$version-win64.zip",
+        "extract_dir": "RHash-$version-win64"
+    }
+}
