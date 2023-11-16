@@ -1,0 +1,14 @@
+{
+    "version": "5.45",
+    "homepage": "https://github.com/rkitover/file-windows/",
+    "license": "",
+    "url": "https://github.com/rkitover/file-windows/releases/download/v5.45/file_5.45-x86_64.7z",
+    "hash": "00f4f15e393382de741e934f34acbcdb10936a9a850aaa1e06ac75401d7b5340",
+    "bin": "file.exe",
+    "checkver": {
+        "github": "https://github.com/rkitover/file-windows/"
+    },
+    "autoupdate": {
+        "url": "https://github.com/rkitover/file-windows/releases/download/v$version/file_$version-x86_64.7z"
+    }
+}
