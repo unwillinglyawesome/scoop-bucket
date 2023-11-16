@@ -1,0 +1,27 @@
+{
+    "version": "17.05",
+    "homepage": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
+    "license": "",
+    "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
+    "hash": "c50bddaaacb26c5654f845962f9ee34db6ce26b62f94a03bb59f3b5a6eea1922",
+    "bin": [
+        [
+            "procexp64.exe",
+            "procexp"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "procexp64.exe",
+            "Sysinternals/Process Explorer",
+            "/accepteula"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/process-explorer.md",
+        "regex": "#.*?v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/ProcessExplorer.zip"
+    }
+}
