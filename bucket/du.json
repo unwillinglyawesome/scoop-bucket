@@ -1,0 +1,20 @@
+{
+    "version": "1.62",
+    "homepage": "https://learn.microsoft.com/sysinternals/downloads/du",
+    "license": "",
+    "url": "https://download.sysinternals.com/files/DU.zip",
+    "hash": "5aa85919ce064a93fdbbcba405ae9cbdfc923d0ff8b521bb9007f7693559921c",
+    "bin": [
+        [
+            "du64.exe",
+            "du"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/du.md",
+        "regex": "#.*?v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/DU.zip"
+    }
+}
