@@ -1,0 +1,22 @@
+{
+    "version": "6.1",
+    "homepage": "https://ffmpeg.org/",
+    "license": "",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-6.1-full_build.7z",
+    "hash": "3010e62631c292cba1c3146380885a45131030d7ab5535369c91baa2b72b53f9",
+    "extract_dir": "ffmpeg-6.1-full_build",
+    "bin": [
+        "bin\\ffmpeg.exe",
+        "bin\\ffplay.exe",
+        "bin\\ffprobe.exe"
+    ],
+    "persist": "fonts",
+    "checkver": {
+        "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z.ver",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-$version-full_build.7z",
+        "extract_dir": "ffmpeg-$version-full_build"
+    }
+}
