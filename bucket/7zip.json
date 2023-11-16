@@ -1,0 +1,23 @@
+{
+    "version": "23.01",
+    "homepage": "https://7-zip.org/",
+    "license": "",
+    "url": "https://www.7-zip.org/a/7z2301-x64.msi",
+    "hash": "0ba639b6dacdf573d847c911bd147c6384381a54dac082b1e8c77bc73d58958b",
+    "extract_dir": "Files\\7-Zip",
+    "bin": [
+        "7z.exe",
+        "7zG.exe"
+    ],
+    "persist": [
+        "Codecs",
+        "Formats"
+    ],
+    "checkver": {
+        "url": "https://www.7-zip.org/download.html",
+        "regex": "Download 7-Zip ([\\d.]+) \\(\\d{4}-\\d{2}-\\d{2}\\)"
+    },
+    "autoupdate": {
+        "url": "https://www.7-zip.org/a/7z$cleanVersion-x64.msi"
+    }
+}
