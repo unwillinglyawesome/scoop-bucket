@@ -1,0 +1,21 @@
+{
+    "version": "3.40",
+    "homepage": "https://mikrotik.com/",
+    "license": "",
+    "url": "https://download.mikrotik.com/winbox/3.40/winbox64.exe",
+    "hash": "91f7b0456619dbfc19940a85566c949ce3718321f32709886df5125c71f0b6b7",
+    "bin": "winbox64.exe",
+    "shortcuts": [
+        [
+            "winbox64.exe",
+            "WinBox"
+        ]
+    ],
+    "checkver": {
+        "url": "https://mikrotik.com/download",
+        "regex": "WinBox ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.mikrotik.com/winbox/$version/winbox64.exe"
+    }
+}
