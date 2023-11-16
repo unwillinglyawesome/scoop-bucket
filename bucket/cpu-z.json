@@ -1,7 +1,7 @@
 {
     "version": "2.08",
     "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
-    "license": "Freeware",
+    "license": "",
     "url": "https://download.cpuid.com/cpu-z/cpu-z_2.08-en.zip",
     "hash": "f8dfcd7a5d886a7b66dc3178a140fb8d99b517b57bcf5cd6c71f2654478f2375",
     "bin": [
