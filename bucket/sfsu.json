@@ -1,0 +1,12 @@
+{
+    "version": "1.4.15",
+    "homepage": "https://github.com/jewlexx/sfsu",
+    "license": "",
+    "url": "https://github.com/jewlexx/sfsu/releases/download/v1.4.15/dl-x86_64.7z",
+    "hash": "08fc7df7dbc672345cc2a0aaf0eb16655b990ec66333fda761015ce931701cd0",
+    "bin": "sfsu.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/jewlexx/sfsu/releases/download/v$version/dl-x86_64.7z"
+    }
+}
