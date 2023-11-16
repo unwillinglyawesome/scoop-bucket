@@ -1,0 +1,21 @@
+{
+    "version": "0.9.4",
+    "homepage": "https://neovim.io/",
+    "license": "",
+    "url": "https://github.com/neovim/neovim/releases/download/v0.9.4/nvim-win64.zip",
+    "hash": "c2cccfa8d6a116ad3e30334826e05d86ccfa055cf67210b32bc84a8e9d7390bb",
+    "extract_dir": "nvim-win64",
+    "bin": [
+        "bin\\nvim.exe",
+        "bin\\nvim-qt.exe"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repositories/16408992/releases/latest",
+        "jsonpath": "$.body",
+        "regex": "NVIM v(?<majorVersion>[\\w.-]+)\\.(?<minorVersion>[\\w.-]+)\\.(?<patchVersion>[\\w.-]+)",
+        "replace": "${majorVersion}.${minorVersion}.${patchVersion}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/neovim/neovim/releases/download/v$version/nvim-win64.zip"
+    }
+}
