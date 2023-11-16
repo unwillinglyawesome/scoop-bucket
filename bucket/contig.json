@@ -1,0 +1,20 @@
+{
+    "version": "1.83",
+    "homepage": "https://learn.microsoft.com/sysinternals/downloads/contig",
+    "license": "",
+    "url": "https://download.sysinternals.com/files/Contig.zip",
+    "hash": "721ce2c510c78ecd7855f08b3219344d15e7f72c9f342ac1f73145b71635d912",
+    "bin": [
+        [
+            "Contig64.exe",
+            "Contig"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/contig.md",
+        "regex": "#.*?v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/Contig.zip"
+    }
+}
