@@ -1,0 +1,21 @@
+{
+    "version": "1.52",
+    "homepage": "https://learn.microsoft.com/sysinternals/downloads/adexplorer",
+    "license": "",
+    "url": "https://download.sysinternals.com/files/AdExplorer.zip",
+    "hash": "56536bff1e9da136a53f68c6f4f1cd51f79be919a27249a193a2bc8fc472e89a",
+    "shortcuts": [
+        [
+            "ADExplorer64.exe",
+            "Sysinternals/Active Directory Explorer",
+            "/accepteula"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/adexplorer.md",
+        "regex": "#.*?v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/AdExplorer.zip"
+    }
+}
