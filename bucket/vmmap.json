@@ -1,0 +1,27 @@
+{
+    "version": "3.4",
+    "homepage": "https://learn.microsoft.com/sysinternals/downloads/vmmap",
+    "license": "",
+    "url": "https://download.sysinternals.com/files/VMMap.zip",
+    "hash": "71c9bb73f1ba63f69096cc5ab11aaad4f1969b060931f19c97f7ca6458ca1c1e",
+    "bin": [
+        [
+            "vmmap64.exe",
+            "vmmap"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "vmmap64.exe",
+            "Sysinternals/VMMap",
+            "/accepteula"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/vmmap.md",
+        "regex": "#.*?v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/VMMap.zip"
+    }
+}
