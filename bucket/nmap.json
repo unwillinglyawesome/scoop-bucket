@@ -1,0 +1,29 @@
+{
+    "version": "7.94",
+    "homepage": "https://nmap.org",
+    "license": "",
+    "notes": [
+        "Install: '$dir\\npcap.exe'",
+        "Merge: '$dir\\nmap_performance.reg'"
+    ],
+    "url": "https://nmap.org/dist/nmap-7.94-setup.exe#/dl.7z",
+    "hash": "b99c4535e1603a2150e4dd97933b69bfddf23e8cceff5c36606ec0327c6f7193",
+    "pre_install": [
+        "Get-ChildItem \"$dir\\`$PLUGINSDIR\\npcap-*.exe\" | Select-Object -First 1 | Rename-Item -NewName 'npcap.exe'",
+        "Move-Item \"$dir\\`$PLUGINSDIR\\npcap.exe\" \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Recurse"
+    ],
+    "bin": [
+        "nmap.exe",
+        "ncat.exe",
+        "ndiff.bat",
+        "nping.exe"
+    ],
+    "checkver": {
+        "url": "https://nmap.org/download.html",
+        "regex": "nmap-([\\d.]+)-setup\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://nmap.org/dist/nmap-$version-setup.exe#/dl.7z"
+    }
+}
