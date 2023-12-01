@@ -1,0 +1,24 @@
+{
+    "version": "4.3",
+    "homepage": "https://rufus.ie/",
+    "license": "",
+    "url": "https://github.com/pbatard/rufus/releases/download/v4.3/rufus-4.3.exe#/rufus.exe",
+    "hash": "9158fed9fb694bc7f7c0520205c101defdffe225a4c1f9af1a3c62314d51fdca",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\rufus.ini\")) { New-Item \"$dir\\rufus.ini\" | Out-Null }",
+    "shortcuts": [
+        [
+            "rufus.exe",
+            "Rufus"
+        ]
+    ],
+    "persist": [
+        "rufus.ini",
+        "rufus_files"
+    ],
+    "checkver": {
+        "github": "https://github.com/pbatard/rufus"
+    },
+    "autoupdate": {
+        "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version.exe#/rufus.exe"
+    }
+}
