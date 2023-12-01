@@ -1,0 +1,30 @@
+{
+    "version": "7.66-5271",
+    "homepage": "https://www.hwinfo.com",
+    "license": "",
+    "url": "https://www.fosshub.com/HWiNFO.html/hwi_766.zip",
+    "hash": "2f0f2ab45337f46a935a60bf52ab09a1fcdacfa1eb87a3d4138f414ca0fdcdc6",
+    "pre_install": [
+        "foreach ($conf in 'HWiNFO64.INI', 'HWiNFO32.INI') {",
+        "    if (!(Test-Path \"$persist_dir\\$conf\")) { Set-Content \"$dir\\$conf\" '[Settings]', 'AutoUpdate=0' -Encoding ASCII }",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "HWiNFO64.exe",
+            "HWiNFO"
+        ]
+    ],
+    "persist": [
+        "HWiNFO64.INI",
+        "HWiNFO32.INI",
+        "HWiNFO64_KEY.txt"
+    ],
+    "checkver": {
+        "url": "https://www.hwinfo.com/ver.txt",
+        "regex": "([\\d-.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.fosshub.com/HWiNFO.html/hwi_$majorVersion$minorVersion.zip"
+    }
+}
