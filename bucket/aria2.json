@@ -1,5 +1,5 @@
 {
-    "version": "1.37.0-1",
+    "version": "1.37.0",
     "homepage": "https://aria2.github.io/",
     "license": "",
     "url": "https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip",
@@ -8,11 +8,10 @@
     "bin": "aria2c.exe",
     "checkver": {
         "github": "https://github.com/aria2/aria2",
-        "regex": "/release-(?:[\\d.]+)/aria2-(?<version>[\\d.]+)-win-64bit-build(?<build>[\\d]+)\\.zip",
-        "replace": "${version}-${build}"
+        "regex": "/releases/tag/release-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/aria2/aria2/releases/download/release-$matchVersion/aria2-$matchVersion-win-64bit-build$matchBuild.zip",
-        "extract_dir": "aria2-$matchVersion-win-64bit-build$matchBuild"
+        "url": "https://github.com/aria2/aria2/releases/download/release-$matchVersion/aria2-$matchVersion-win-64bit-build1.zip",
+        "extract_dir": "aria2-$matchVersion-win-64bit-build1"
     }
 }
