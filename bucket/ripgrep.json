@@ -1,0 +1,14 @@
+{
+    "version": "14.0.3",
+    "homepage": "https://github.com/BurntSushi/ripgrep",
+    "license": "",
+    "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.0.3/ripgrep-14.0.3-x86_64-pc-windows-msvc.zip",
+    "hash": "b6df202a06cab342cf28302f319ddd5788da10672781c38dd49ebe566b423e3f",
+    "extract_dir": "ripgrep-14.0.3-x86_64-pc-windows-msvc",
+    "bin": "rg.exe",
+    "checkver": "github",
+    "autoupdate": {
+                "url": "https://github.com/BurntSushi/ripgrep/releases/download/$version/ripgrep-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "ripgrep-$version-x86_64-pc-windows-msvc"
+    }
+}
