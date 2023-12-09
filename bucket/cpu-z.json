@@ -4,12 +4,6 @@
     "license": "",
     "url": "https://download.cpuid.com/cpu-z/cpu-z_2.08-en.zip",
     "hash": "f8dfcd7a5d886a7b66dc3178a140fb8d99b517b57bcf5cd6c71f2654478f2375",
-    "bin": [
-        [
-            "cpuz_x64.exe",
-            "cpuz"
-        ]
-    ],
     "shortcuts": [
         [
             "cpuz_x64.exe",
