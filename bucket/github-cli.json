@@ -1,9 +1,9 @@
 {
-    "version": "2.40.0",
+    "version": "2.40.1",
     "homepage": "https://cli.github.com/",
     "license": "",
-    "url": "https://github.com/cli/cli/releases/download/v2.40.0/gh_2.40.0_windows_amd64.zip",
-    "hash": "6d27beeedf5d445ba7bdc92e3e85694c375ee558dca4d0c47ae37c5d2c42b071",
+    "url": "https://github.com/cli/cli/releases/download/v2.40.1/gh_2.40.1_windows_amd64.zip",
+    "hash": "9c496dbb5781d4f796b5841cafdce5bbd962efd498f5117cd95790186fb1440b",
     "bin": "bin\\gh.exe",
     "checkver": {
         "github": "https://github.com/cli/cli"
