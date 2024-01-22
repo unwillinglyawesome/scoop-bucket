@@ -1,9 +1,9 @@
 {
-    "version": "0.19.1",
+    "version": "0.19.2",
     "homepage": "https://github.com/natesales/q",
     "license": "",
-    "url": "https://github.com/natesales/q/releases/download/v0.19.1/q_0.19.1_windows_amd64.tar.gz",
-    "hash": "405b76c3be1b454cb8f1c319c742dfd66171c9388655c2929f7c891005c152b6",
+    "url": "https://github.com/natesales/q/releases/download/v0.19.2/q_0.19.2_windows_amd64.tar.gz",
+    "hash": "7c3086038217c7e5558258018b204df71796f3f5dc351bcb31cf9996405c6e0f",
     "bin": "q.exe",
     "checkver": "github",
     "autoupdate": {
