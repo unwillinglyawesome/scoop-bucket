@@ -7,6 +7,6 @@
     "bin": "sfsu.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/jewlexx/sfsu/releases/download/v$version/dl-x86_64.7z"
+        "url": "https://github.com/jewlexx/sfsu/releases/download/v$version/sfsu-x86_64.exe"
     }
 }
