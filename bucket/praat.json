@@ -1,9 +1,9 @@
 {
-    "version": "6.4.08",
+    "version": "6.4.09",
     "homepage": "http://www.fon.hum.uva.nl/praat/",
     "license": "",
-    "url": "https://github.com/praat/praat/releases/download/v6.4.08/praat6408_win-intel64.zip",
-    "hash": "27bdd77d9e2ea8d81ac7cb31b30a4106575ccf51c6a613973ab6872500f4151f",
+    "url": "https://github.com/praat/praat/releases/download/v6.4.09/praat6409_win-intel64.zip",
+    "hash": "2f98fdea0bdd3b14667ca530c3ccefc85b22e83727df1198e174f29b7d333fbb",
     "bin": "Praat.exe",
     "shortcuts": [
         [
