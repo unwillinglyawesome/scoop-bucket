@@ -1,0 +1,14 @@
+{
+    "version": "5.3",
+    "homepage": "https://wntsetup.ru/",
+    "license": "",
+    "url": "https://wntsetup.ru/WinNTSetup.zip",
+    "hash": "3b023c5da4ea161e1904609c97df9959f292e5bf62534662a13874867c7d0cab",
+    "extract_dir": "WinNTSetup",
+    "shortcuts": [
+        [
+            "WinNTSetup_x64.exe",
+            "WinNTSetup"
+        ]
+    ]
+}
