@@ -1,9 +1,9 @@
 {
-    "version": "23.01",
+    "version": "24.05",
     "homepage": "https://7-zip.org/",
     "license": "",
-    "url": "https://www.7-zip.org/a/7z2301-x64.msi",
-    "hash": "0ba639b6dacdf573d847c911bd147c6384381a54dac082b1e8c77bc73d58958b",
+    "url": "https://www.7-zip.org/a/7z2405-x64.msi",
+    "hash": "0f6aa6596d418b1694f62c8583de05d24589b8d7ffacce5a7dab52ae71f832b6",
     "extract_dir": "Files\\7-Zip",
     "bin": [
         "7z.exe",
