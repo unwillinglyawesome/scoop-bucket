@@ -6,8 +6,7 @@
     "hash": "e32390f8ed607c9a3749c2faba68e1dd9ecc6fa9a7cae544e4dadd810766d064",
     "extract_dir": "nvim-win64",
     "bin": [
-        "bin\\nvim.exe",
-        "bin\\nvim-qt.exe"
+        "bin\\nvim.exe"
     ],
     "checkver": {
         "url": "https://api.github.com/repositories/16408992/releases/latest",
