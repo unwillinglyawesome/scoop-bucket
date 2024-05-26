@@ -1,10 +1,10 @@
 {
-    "version": "7.0",
+    "version": "7.0.1",
     "homepage": "https://ffmpeg.org/",
     "license": "",
-    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-7.0-full_build.7z",
-    "hash": "2b4eaf0959f58b154d236c034a3daf3a1e40f1fec815d6644391bbffe841f828",
-    "extract_dir": "ffmpeg-7.0-full_build",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-7.0.1-full_build.7z",
+    "hash": "0c04837490bdbf401a03f5b67428bc234009f34ae5cc5111ca18b0bdbc8ca506",
+    "extract_dir": "ffmpeg-7.0.1-full_build",
     "bin": [
         "bin\\ffmpeg.exe",
         "bin\\ffplay.exe",
