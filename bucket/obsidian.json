@@ -18,6 +18,6 @@
         "github": "https://github.com/obsidianmd/obsidian-releases"
     },
     "autoupdate": {
-        "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian.$version.exe#/dl.7z"
+        "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian-$version.exe#/dl.7z"
     }
 }
