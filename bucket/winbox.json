@@ -16,6 +16,6 @@
         "regex": "WinBox ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.mikrotik.com/winbox/$version/winbox64.exe"
+        "url": "https://download.mikrotik.com/routeros/winbox/$version/winbox64.exe"
     }
 }
