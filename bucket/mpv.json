@@ -1,9 +1,9 @@
 {
-    "version": "0.38.0",
+    "version": "0.39.0",
     "homepage": "https://mpv.io",
     "license": "",
-    "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-0.38.0-x86_64.7z",
-    "hash": "sha1:44dbdf260b3bb2f2db70b0fa3e22d1138714dd75",
+    "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-0.39.0-x86_64.7z",
+    "hash": "sha1:70f21fe5538be954d4fb1ce069717f4a722222e4",
     "env_add_path": ".",
     "shortcuts": [
         [
