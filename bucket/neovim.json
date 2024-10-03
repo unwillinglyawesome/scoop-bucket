@@ -1,9 +1,9 @@
 {
-    "version": "0.10.1",
+    "version": "0.10.2",
     "homepage": "https://neovim.io/",
     "license": "",
-    "url": "https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-win64.zip",
-    "hash": "6b9be9acb4f5011f7ab6f7390286a579534e05f0dcf8f37d503c4d40b4adf548",
+    "url": "https://github.com/neovim/neovim/releases/download/v0.10.2/nvim-win64.zip",
+    "hash": "3e11c4bed6f3d921af03112c8056740ca6fcacdbf84066328193f058200531c2",
     "extract_dir": "nvim-win64",
     "bin": "bin\\nvim.exe",
     "checkver": {
