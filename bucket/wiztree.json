@@ -1,9 +1,9 @@
 {
-    "version": "4.20",
+    "version": "4.21",
     "homepage": "https://www.diskanalyzer.com",
     "license": "",
-    "url": "https://www.diskanalyzer.com/files/wiztree_4_20_portable.zip",
-    "hash": "8e336d7ac8d4028cab6bf552bd63fa12277694deb575f8fd3d4b585eb6b84ccb",
+    "url": "https://www.diskanalyzer.com/files/wiztree_4_21_portable.zip",
+    "hash": "9983941e7b45663539b88c562de54fa32f5df1ff47bc9f762f2306af900f97f7",
     "shortcuts": [
         [
             "WizTree64.exe",
