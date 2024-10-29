@@ -1,9 +1,9 @@
 {
-    "version": "2.4.5",
+    "version": "2.4.6",
     "homepage": "https://www.gnupg.org/",
     "license": "",
-    "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.4.5_20240307.exe#/dl.7z",
-    "hash": "d2ac821ceacf9409ebcdb42ae330087ada30c732981f00b356f9c2f08fac4dc1",
+    "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.4.6_20241029.exe#/dl.7z",
+    "hash": "af5866586309418ae2f83f55de6ec96e9f557695a50a0631ccedfebfa708f51e",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\gnupg-uninstall.exe.nsis\" -Force -Recurse",
