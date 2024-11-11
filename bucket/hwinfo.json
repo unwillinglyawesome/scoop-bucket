@@ -25,6 +25,6 @@
         "regex": "([\\d-.]+)"
     },
     "autoupdate": {
-        "url": "https://www.fosshub.com/HWiNFO.html/hwi_$majorVersion$minorVersion.zip"
+        "url": "https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.zip"
     }
 }
