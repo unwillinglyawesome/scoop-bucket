@@ -4,11 +4,10 @@
     "license": "",
     "url": "https://download.mikrotik.com/routeros/winbox/3.41/winbox64.exe",
     "hash": "8bc3ecf1f35952600ecb1a380c38c88e9d63c081a32204fd094d588230070bf6",
-    "bin": "winbox64.exe",
     "shortcuts": [
         [
             "winbox64.exe",
-            "WinBox"
+            "WinBox (v3)"
         ]
     ],
     "checkver": {
