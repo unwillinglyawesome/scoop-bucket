@@ -12,7 +12,7 @@
         "reverse": true
     },
     "autoupdate": {
-        "url": "https://files.budman.pw/iperf$version.zip",
-        "extract_dir": "iperf$version"
+        "url": "https://files.budman.pw/iperf$version_64.zip",
+        "extract_dir": "iperf$version_64"
     }
 }
