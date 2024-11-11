@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://mikrotik.com/download",
-        "regex": "WinBox ([\\d.]+)"
+        "regex": "WinBox (3\\.[\\d.]+)"
     },
     "autoupdate": {
         "url": "https://download.mikrotik.com/routeros/winbox/$version/winbox64.exe"
