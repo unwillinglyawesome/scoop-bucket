@@ -1,9 +1,9 @@
 {
-    "version": "20241110",
+    "version": "20241117",
     "homepage": "https://mpv.io",
     "license": "",
-    "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20241110-git-d66ed2d.7z",
-    "hash": "sha1:a0d1f34b0d5b4170314bb718ee849e1c6c8e1a1f",
+    "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20241117-git-dd5f206.7z",
+    "hash": "sha1:448321c624d2f22b8da396078bcc1332c43d6892",
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
     "env_add_path": ".",
     "shortcuts": [
