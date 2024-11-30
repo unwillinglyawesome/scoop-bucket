@@ -1,9 +1,9 @@
 {
-    "version": "24.08",
+    "version": "24.09",
     "homepage": "https://7-zip.org/",
     "license": "",
-    "url": "https://www.7-zip.org/a/7z2408-x64.msi",
-    "hash": "98330e7e6db3507b444d576dc437a9ac4d82333a88a6bb6ef36a91fe3d85fa92",
+    "url": "https://www.7-zip.org/a/7z2409-x64.msi",
+    "hash": "ec6af1ea0367d16dde6639a89a080a524cebc4d4bedfe00ed0cac4b865a918d8",
     "extract_dir": "Files\\7-Zip",
     "bin": [
         "7z.exe",
