@@ -4,6 +4,7 @@
     "license": "",
     "url": "https://www.uwe-sieber.de/files/UsbTreeView_x64.zip",
     "hash": "37793a6e68bef1eaca538b31849d21014d978fa30bab75967f454d007afc37bb",
+    "extract_dir": "x64",
     "pre_install": "if (!(Test-Path \"$persist_dir\\UsbTreeView.ini\")) { New-Item \"$dir\\UsbTreeView.ini\" | Out-Null }",
     "shortcuts": [
         [
