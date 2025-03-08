@@ -25,6 +25,6 @@
         "regex": "([\\d-.]+)"
     },
     "autoupdate": {
-        "url": "https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.zip"
+        "url": "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_$majorVersion$minorVersion.zip"
     }
 }
