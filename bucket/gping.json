@@ -10,6 +10,6 @@
         "regex": "/releases/tag/gping-v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/orf/gping/releases/download/gping-v$version/gping-Windows-x86_64.zip"
+        "url": "https://github.com/orf/gping/releases/download/gping-v$version/gping-Windows-msvc-x86_64.zip"
     }
 }
