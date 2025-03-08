@@ -7,6 +7,6 @@
     "bin": "ffsend.exe",
     "checkver": "github",
     "autoupdate": {
-                "url": "https://github.com/timvisee/ffsend/releases/download/v$version/ffsend-v$version-windows-x64-static.exe#/ffsend.exe"
+        "url": "https://github.com/timvisee/ffsend/releases/download/v$version/ffsend-v$version-windows-x64-static.exe#/ffsend.exe"
     }
 }
