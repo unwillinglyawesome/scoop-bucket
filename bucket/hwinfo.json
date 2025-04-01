@@ -1,9 +1,9 @@
 {
-    "version": "8.22-5670",
+    "version": "8.24-5700",
     "homepage": "https://www.hwinfo.com",
     "license": "",
-    "url": "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_822.zip",
-    "hash": "sha1:f305b80f630253634b52017112f639fbe43c67d2",
+    "url": "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_824.zip",
+    "hash": "sha1:eb18fe51a0f59426f46f3d41f33e618c6ff332ec",
     "pre_install": [
         "foreach ($conf in 'HWiNFO64.INI', 'HWiNFO32.INI') {",
         "    if (!(Test-Path \"$persist_dir\\$conf\")) { Set-Content \"$dir\\$conf\" '[Settings]', 'AutoUpdate=0' -Encoding ASCII }",
