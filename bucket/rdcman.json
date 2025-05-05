@@ -1,9 +1,9 @@
 {
-    "version": "2.93",
+    "version": "3.0",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/rdcman",
     "license": "",
     "url": "https://download.sysinternals.com/files/RDCMan.zip",
-    "hash": "33078e697fed8c0f69ef42a1bf5af810e5038160413311f2abaff3d7186d12a5",
+    "hash": "b4f123042b8fe1c39fd90c2cc777291d9a2fe1c517a05138b8081b3c8603a983",
     "bin": "RDCMan.exe",
     "shortcuts": [
         [
