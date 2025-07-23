@@ -1,9 +1,9 @@
 {
-    "version": "4.5.2",
+    "version": "4.5.3",
     "homepage": "https://www.uwe-sieber.de/",
     "license": "",
     "url": "https://www.uwe-sieber.de/files/UsbTreeView_x64.zip",
-    "hash": "286402f97fb66c9bdb4250fa7c5b146dc6e68783f90d9fccb14f405a7072aea5",
+    "hash": "68d1a1c7e3f582156ea9c1fc5080c0b2ed89fe091de0a648848ec69cb77992f4",
     "extract_dir": "x64",
     "pre_install": "if (!(Test-Path \"$persist_dir\\UsbTreeView.ini\")) { New-Item \"$dir\\UsbTreeView.ini\" | Out-Null }",
     "shortcuts": [
