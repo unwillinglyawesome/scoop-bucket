@@ -1,9 +1,9 @@
 {
-    "version": "1.63.0",
+    "version": "1.64.0",
     "homepage": "https://gitlab.com/gitlab-org/cli",
     "license": "",
-    "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.63.0/downloads/glab_1.63.0_windows_amd64.zip",
-    "hash": "96a42d345fab1468faf08a4f210755fa0016cc1bf85ad53daf0751217611ce6b",
+    "url": "https://gitlab.com/gitlab-org/cli/-/releases/v1.64.0/downloads/glab_1.64.0_windows_amd64.zip",
+    "hash": "4cbbfa020a838261b54c8b2a36f74f6634bab85afd05c173de761e7ef354eadd",
     "bin": "bin\\glab.exe",
     "checkver": {
         "url": "https://gitlab.com/gitlab-org/cli/-/tags?format=atom",
