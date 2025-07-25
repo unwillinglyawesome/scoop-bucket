@@ -1,10 +1,10 @@
 {
-    "version": "8.15.0_2",
+    "version": "8.15.0_4",
     "homepage": "https://curl.se/",
     "license": "",
-    "url": "https://curl.se/windows/dl-8.15.0_2/curl-8.15.0_2-win64-mingw.tar.xz",
-    "hash": "6c0b311348ed5311ec925424c1b439e74d1f176bd5a4edabb5e5fdea21debddc",
-    "extract_dir": "curl-8.15.0_2-win64-mingw",
+    "url": "https://curl.se/windows/dl-8.15.0_4/curl-8.15.0_4-win64-mingw.tar.xz",
+    "hash": "b098e6a67e480e34ffd7ebd250b8d7d859a3ff45f476ab639eb38460093af7e7",
+    "extract_dir": "curl-8.15.0_4-win64-mingw",
     "bin": "bin\\curl.exe",
     "checkver": {
         "url": "https://curl.se/windows/",
