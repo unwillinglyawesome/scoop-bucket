@@ -1,0 +1,15 @@
+{
+    "version": "0.3.0",
+    "description": "",
+    "homepage": "https://github.com/nilaoda/N_m3u8DL-RE",
+    "license": "",
+    "suggest": {
+        "ffmpeg": "ffmpeg"
+    },
+    "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_m3u8DL-RE_v0.3.0-beta_win-x64_20241203.zip",
+    "hash": "876b3208bd466e433a22ddea98330b8a5078c95306ba2fb74e4bfc8950d07b24",
+    "bin": "N_m3u8DL-RE.exe",
+    "checkver": {
+        "github": "https://github.com/nilaoda/N_m3u8DL-RE"
+    }
+}
