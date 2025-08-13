@@ -1,9 +1,9 @@
 {
-    "version": "2.67.0",
+    "version": "2.68.0",
     "homepage": "https://www.techpowerup.com/gpuz/",
     "license": "Freeware",
-    "url": "http://us2-dl.techpowerup.com/files/GPU-Z.2.67.0.exe#/GPU-Z.exe",
-    "hash": "0c505fc2a4f2e4035623240a5697cac47a1f900ebb05357fe2877f18c0a130b2",
+    "url": "http://us2-dl.techpowerup.com/files/GPU-Z.2.68.0.exe#/GPU-Z.exe",
+    "hash": "147d70853cc2f4bcd6092270a339eebe7e59b92c929a386408c1a203738907e8",
     "bin": "GPU-Z.exe",
     "shortcuts": [
         [
