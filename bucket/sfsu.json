@@ -1,9 +1,9 @@
 {
-    "version": "1.17.0",
+    "version": "1.17.1",
     "homepage": "https://github.com/jewlexx/sfsu",
     "license": "",
-    "url": "https://github.com/jewlexx/sfsu/releases/download/v1.17.0/sfsu-x86_64.exe",
-    "hash": "72b83afde1726fc589625c8386533fc48ef30c73cf6c58cc04c014f7227608d1",
+    "url": "https://github.com/jewlexx/sfsu/releases/download/v1.17.1/sfsu-x86_64.exe",
+    "hash": "0f0471438851182cd6d4d068a21595e32504e363eb7b3037e6f7cf642efc2e77",
     "bin": "sfsu.exe",
     "checkver": "github",
     "autoupdate": {
