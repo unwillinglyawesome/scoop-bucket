@@ -1,9 +1,9 @@
 {
-    "version": "0.19.1",
+    "version": "0.19.2",
     "homepage": "https://github.com/iyear/tdl",
     "license": "",
-    "url": "https://github.com/iyear/tdl/releases/download/v0.19.1/tdl_Windows_64bit.zip",
-    "hash": "0a966e659637245770fcdb4d29ffc25428a66dcd404ae8644d0d8732792ee7dd",
+    "url": "https://github.com/iyear/tdl/releases/download/v0.19.2/tdl_Windows_64bit.zip",
+    "hash": "03c6cf23d2aa812bb5ab3bea08009a9403b27271708eea50ddef8a59ef8d053f",
     "bin": "tdl.exe",
     "checkver": "github",
     "autoupdate": {
