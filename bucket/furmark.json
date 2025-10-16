@@ -1,10 +1,10 @@
 {
-    "version": "2.9.0.0",
+    "version": "2.10.0.0",
     "description": "A GPU Stress Test and OpenGL Benchmark",
     "homepage": "https://geeks3d.com/furmark/",
     "license": "",
-    "url": "https://geeks3d.com/downloads/2025/fm2/FurMark_2.9.0.0_win64.zip",
-    "hash": "36c392222f40f79ccd86bf018ef33ac488ae89e63cb12e6fb7f1af9d6eab0485",
+    "url": "https://geeks3d.com/downloads/2025/fm2/FurMark_2.10.0.0_win64.zip",
+    "hash": "8b1e87625c60bccbd49bb2c109afcee9b96b9af0540598a288e9fb27820b5851",
     "extract_dir": "FurMark_win64",
     "bin": "furmark.exe",
     "shortcuts": [
