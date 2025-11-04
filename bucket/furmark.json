@@ -4,7 +4,7 @@
     "homepage": "https://geeks3d.com/furmark/",
     "license": "",
     "url": "https://geeks3d.com/downloads/2025/fm2/FurMark_2.10.2.0_win64.zip",
-    "hash": "fc09c07be5b90c89a3d9b07d6f0b5b64666747564dd34c880f6f9a9a76e79444",
+    "hash": "74e227f6be7ea5c812c204e68e225d556a66e12b4477ada7ed1fe66313ac2fe0",
     "extract_dir": "FurMark_win64",
     "bin": "furmark.exe",
     "shortcuts": [
