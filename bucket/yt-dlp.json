@@ -1,9 +1,9 @@
 {
-    "version": "2025.10.22",
+    "version": "2025.11.12",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "license": "",
-    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2025.10.22/yt-dlp.exe",
-    "hash": "f54b89f1855117b664f18828b5abcc7f80e197f47d15e8983d9775f45a275f43",
+    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2025.11.12/yt-dlp.exe",
+    "hash": "9f8b03a37125854895a7eebf50a605e34e7ec3bd2444931eff377f3ccec50e96",
     "pre_install": "if (-not (Test-Path \"$persist_dir\\yt-dlp.conf\")) { New-Item \"$dir\\yt-dlp.conf\" -ItemType File | Out-Null }",
     "bin": "yt-dlp.exe",
     "persist": [
