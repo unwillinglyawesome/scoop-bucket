@@ -3,7 +3,7 @@
     "homepage": "https://www.hwinfo.com",
     "license": "",
     "url": "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_834.zip",
-    "hash": "sha1:bb25a35970bb3d5fb199a9a0ed0282fc2f040ca7",
+    "hash": "42ee4be4d90be1e297228893dbc049a87daf99f3eb26f0a2ab0b7b666f45c85e",
     "pre_install": [
         "foreach ($conf in 'HWiNFO64.INI', 'HWiNFO32.INI') {",
         "    if (!(Test-Path \"$persist_dir\\$conf\")) { Set-Content \"$dir\\$conf\" '[Settings]', 'AutoUpdate=0' -Encoding ASCII }",
