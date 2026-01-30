@@ -1,9 +1,9 @@
 {
-    "version": "4.11",
+    "version": "4.12",
     "homepage": "https://rufus.ie/",
     "license": "",
-    "url": "https://github.com/pbatard/rufus/releases/download/v4.11/rufus-4.11.exe#/rufus.exe",
-    "hash": "abbf04d50a44a9612c027fc8072f6da67f5bcda2b826f1f852c9c24d7a1fcdff",
+    "url": "https://github.com/pbatard/rufus/releases/download/v4.12/rufus-4.12.exe#/rufus.exe",
+    "hash": "c19e9aea0e944dcd36bcde3d5bebb60772de4afd844c6ae7cb7f5c5ad5742ae0",
     "pre_install": "if (!(Test-Path \"$persist_dir\\rufus.ini\")) { New-Item \"$dir\\rufus.ini\" | Out-Null }",
     "shortcuts": [
         [
