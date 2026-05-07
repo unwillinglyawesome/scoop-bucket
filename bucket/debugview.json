@@ -1,9 +1,9 @@
 {
-    "version": "5.0",
+    "version": "5.01",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/debugview",
     "license": "",
     "url": "https://download.sysinternals.com/files/DebugView.zip",
-    "hash": "41e3a05f672a4824783a268fcbf8706c0c840eb2341429afc8d241e6275ca651",
+    "hash": "175df220c9c35ebb38bc00187fca8e6e09fa4ec61c4af9e4dfadc7bbf2b723fb",
     "bin": [
         [
             "dbgview64.exe",
