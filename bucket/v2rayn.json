@@ -1,9 +1,9 @@
 {
-    "version": "7.22.6",
+    "version": "7.22.7",
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "",
-    "url": "https://github.com/2dust/v2rayN/releases/download/7.22.6/v2rayN-windows-64.zip",
-    "hash": "2a2dbaf1ba0d12b7b34d41c6a2a3fb3a724e0299ee6422d005a351132985db31",
+    "url": "https://github.com/2dust/v2rayN/releases/download/7.22.7/v2rayN-windows-64.zip",
+    "hash": "126bcb2b4671667e992342c54c5a2cda4f429ffd91cbe2264ea6d98c21af7934",
     "extract_dir": "v2rayN-windows-64",
     "shortcuts": [
         [
