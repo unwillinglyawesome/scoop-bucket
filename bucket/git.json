@@ -1,9 +1,9 @@
 {
-    "version": "2.55.0.3",
+    "version": "2.55.0.4",
     "homepage": "https://gitforwindows.org/",
     "license": "",
-    "url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.3/PortableGit-2.55.0.3-64-bit.7z.exe#/dl.7z",
-    "hash": "ab00566336b5472120f9a52d34f2e79c5406535792acb0548001ffd0bd090e5d",
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.4/PortableGit-2.55.0.4-64-bit.7z.exe#/dl.7z",
+    "hash": "016e84230a3767f0c6b3788e79ba0c58a17377086801719d46700fca4f7b36b5",
     "bin": [
         "cmd\\git.exe",
         "cmd\\gitk.exe",
