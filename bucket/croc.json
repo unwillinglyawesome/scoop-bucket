@@ -1,10 +1,10 @@
 {
-    "version": "11.2.0",
+    "version": "11.2.1",
     "description": "",
     "homepage": "https://schollz.com/software/croc6",
     "license": "",
-    "url": "https://github.com/schollz/croc/releases/download/v11.2.0/croc_v11.2.0_Windows-64bit.zip",
-    "hash": "1544fa0ce95a40077107bd53910ec0f356347e8b588b5d96ca0821ef54a32206",
+    "url": "https://github.com/schollz/croc/releases/download/v11.2.1/croc_v11.2.1_Windows-64bit.zip",
+    "hash": "54b444ea48cc0cd521d63c05b893530b8173f2ae14eedd79e915a56dd19c20f8",
     "bin": "croc.exe",
     "checkver": {
         "github": "https://github.com/schollz/croc"
