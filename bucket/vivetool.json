@@ -1,0 +1,12 @@
+{
+    "version": "0.3.4",
+    "homepage": "https://github.com/thebookisclosed/ViVe",
+    "license": "",
+    "url": "https://github.com/thebookisclosed/ViVe/releases/download/v0.3.4/ViVeTool-v0.3.4-IntelAmd.zip",
+    "hash": "cc27f073f3fe5dd2c3d947faf558fd4b2f8e34454f812689b0d65ee8a52e4147",
+    "bin": "ViVeTool.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/thebookisclosed/ViVe/releases/download/v$version/ViVeTool-v$version-IntelAmd.zip"
+    }
+}
