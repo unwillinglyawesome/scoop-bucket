@@ -1,9 +1,9 @@
 {
-    "version": "26.04",
+    "version": "26.05",
     "homepage": "https://7-zip.org/",
     "license": "",
-    "url": "https://www.7-zip.org/a/7z2604-x64.msi",
-    "hash": "0b01334a418654293513449f61d6bfc99e5196ca371e3c3dc961eda57cd535c6",
+    "url": "https://www.7-zip.org/a/7z2605-x64.msi",
+    "hash": "3fe4ab99fa15629c652944309a2b2bc6e41fc933fc6b63f5df1ebcf3aea68263",
     "extract_dir": "Files\\7-Zip",
     "bin": [
         "7z.exe",
