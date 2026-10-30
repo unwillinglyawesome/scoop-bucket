@@ -3,7 +3,7 @@
     "homepage": "https://innounp.sourceforge.net/",
     "license": "",
     "url": "https://downloads.sourceforge.net/project/innounp/innounp/innounp%200.50/innounp050.rar",
-    "hash": "1d8837540ccc15d98245a1c73fd08f404b2a7bdfe7dc9bed2fdece818ff6df67",
+    "hash": "10fce27b6344b7674d5625cc34afca1c88c12183d957c6d93e401097fa2556cd",
     "bin": "innounp.exe",
     "checkver": {
         "sourceforge": "innounp/innounp"
