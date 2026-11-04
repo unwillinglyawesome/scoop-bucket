@@ -1,0 +1,30 @@
+{
+    "version": "9.9.4",
+    "description": "",
+    "homepage": "https://crystalmark.info/en/software/crystaldiskinfo/",
+    "license": "",
+    "shortcuts": [
+        [
+            "DiskInfo64.exe",
+            "CrystalDiskInfo"
+        ]
+    ],
+    "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.4/CrystalDiskInfo9_9_4.zip",
+    "hash": "0215b873f77c0219147b07c420d92a50e23e8795d507d238d4a6b622e3bf56f4",
+    "pre_install": [
+        "# Manually persist AMD RAID plugins (AMD_RC2t7x64.dll, AMD_RC2t7x86.dll)",
+        "if (Test-Path \"$persist_dir\\AMD_RC2t7*.dll\") { Copy-Item \"$persist_dir\\AMD_RC2t7*.dll\" \"$dir\\\" }"
+    ],
+    "persist": [
+        "Smart",
+        "DiskInfo.ini"
+    ],
+    "pre_uninstall": "if (Test-Path \"$dir\\AMD_RC2t7*.dll\") { Copy-Item \"$dir\\AMD_RC2t7*.dll\" \"$persist_dir\\\" }",
+    "checkver": {
+        "sourceforge": "crystaldiskinfo",
+        "regex": "((\\d+\\.)(\\d+\\.)(\\d+))/CrystalDiskInfo.*.zip"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/crystaldiskinfo/files/$version/CrystalDiskInfo$underscoreVersion.zip"
+    }
+}
