@@ -7,14 +7,7 @@
     "shortcuts": [
         [
             "winbox64.exe",
-            "WinBox (v3)"
+            "WinBox"
         ]
-    ],
-    "checkver": {
-        "url": "https://mikrotik.com/download",
-        "regex": "WinBox (3\\.[\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://download.mikrotik.com/routeros/winbox/$version/winbox64.exe"
-    }
+    ]
 }
