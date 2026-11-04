@@ -1,9 +1,9 @@
 {
-    "version": "4.0beta42",
+    "version": "4.5",
     "homepage": "https://mikrotik.com/",
     "license": "",
-    "url": "https://download.mikrotik.com/routeros/winbox/4.0beta42/WinBox_Windows.zip",
-    "hash": "d8a8046edb36a3c2a4a39cb3aff23d3ffc9021189df7efc60a06f2a4198c335c",
+    "url": "https://download.mikrotik.com/routeros/winbox/4.5/WinBox_Windows.zip",
+    "hash": "c98c23f4d7e9e3c68264a79967e59ede8defc86e4c7af3c7eae05d071ea867fd",
     "shortcuts": [
         [
             "WinBox.exe",
@@ -11,8 +11,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://mikrotik.com/download",
-        "regex": "WinBox ([\\d.]+beta[\\d]+)"
+        "url": "https://mikrotik.com/download/winbox",
+        "regex": ">v([\\d.]+)<"
     },
     "autoupdate": {
         "url": "https://download.mikrotik.com/routeros/winbox/$version/WinBox_Windows.zip"
