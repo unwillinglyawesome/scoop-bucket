@@ -3,7 +3,7 @@
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/debugview",
     "license": "",
     "url": "https://download.sysinternals.com/files/DebugView.zip",
-    "hash": "175df220c9c35ebb38bc00187fca8e6e09fa4ec61c4af9e4dfadc7bbf2b723fb",
+    "hash": "a8454253756af10667b82faf2323de536f0b7084d732acba63803df01ce4c316",
     "bin": [
         [
             "dbgview64.exe",
