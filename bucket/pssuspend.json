@@ -1,9 +1,9 @@
 {
-    "version": "1.09",
+    "version": "1.1",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/pssuspend",
     "license": "",
     "url": "https://download.sysinternals.com/files/pssuspend.zip",
-    "hash": "9e01a7d12c8546059904fcf08cf8f47f47d4dafe170a4ac0799ed1108cbee0a6",
+    "hash": "a45770c5585e0d48c80f595067ad233f9151a93e11256753f879bd2e2f4cdfde",
     "bin": [
         [
             "pssuspend64.exe",
