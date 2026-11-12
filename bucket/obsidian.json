@@ -1,9 +1,9 @@
 {
-    "version": "1.15.0",
+    "version": "1.15.1",
     "homepage": "https://obsidian.md",
     "license": "",
-    "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.0/Obsidian-1.15.0.exe#/dl.7z",
-    "hash": "b0f60c75a12f96d54cb16b9fc32919966f2ebf029d9af75d67a19ba6555e1da0",
+    "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1.exe#/dl.7z",
+    "hash": "218c7d30acc065355ce94719dd996d5e2a2347cde3811ea5dc29380583f02b58",
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse",
     "bin": [
